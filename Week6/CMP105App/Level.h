@@ -4,7 +4,7 @@
 #include "Framework/Input.h"
 #include <string.h>
 #include <iostream>
-
+#include "Ball.h"
 
 class Level{
 public:
@@ -25,4 +25,5 @@ private:
 	Input* input;
 
 	// More level variables
+	Ball ball;
 };
